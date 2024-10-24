@@ -529,6 +529,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Acellarator69fartmansupremo",
+                    "type": "Value",
+                    "id": "315ec30d-9b2a-43e7-ac5e-22701e58610b",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Gyroscopic Annihilation",
+                    "type": "Value",
+                    "id": "427cda4d-02ae-4ae7-8fd9-87ea2053f064",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -540,6 +558,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9941ea01-3861-4af5-b25b-991cf97d84bd",
+                    "path": "<Accelerometer>/acceleration",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Acellarator69fartmansupremo",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dab757e2-0172-4dbd-a6c6-60d1639fa899",
+                    "path": "<Gyroscope>/angularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gyroscopic Annihilation",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
